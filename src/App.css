@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-  height: 400px;
+  height: 380px;
   width: 680px;
   background-color: hsl(217, 19%, 24%);
   position: absolute;
@@ -22,6 +22,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
+  box-shadow: 5px 5px 15px hsl(217, 19%, 38%);
 }
 
 .title-container {
@@ -55,4 +56,38 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 1rem;
+}
+
+.dice {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.dice:hover {
+  box-shadow: 0 0 10px hsl(150, 100%, 66%);
+}
+
+@media  (max-width: 680px) {
+  .main-container {
+    height: 380px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+  @media (max-width: 380px) {
+  .main-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
 }
