@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/www.christianwu.dev/advice-generator/static/css/main.9d7fbfd9.css",
-    "main.js": "/www.christianwu.dev/advice-generator/static/js/main.c50dd3f2.js",
-    "index.html": "/www.christianwu.dev/advice-generator/index.html",
-    "main.9d7fbfd9.css.map": "/www.christianwu.dev/advice-generator/static/css/main.9d7fbfd9.css.map",
-    "main.c50dd3f2.js.map": "/www.christianwu.dev/advice-generator/static/js/main.c50dd3f2.js.map"
+    "main.css": "/advice-generator/static/css/main.9d7fbfd9.css",
+    "main.js": "/advice-generator/static/js/main.c50dd3f2.js",
+    "index.html": "/advice-generator/index.html",
+    "main.9d7fbfd9.css.map": "/advice-generator/static/css/main.9d7fbfd9.css.map",
+    "main.c50dd3f2.js.map": "/advice-generator/static/js/main.c50dd3f2.js.map"
   },
   "entrypoints": [
     "static/css/main.9d7fbfd9.css",
