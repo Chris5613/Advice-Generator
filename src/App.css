@@ -71,6 +71,13 @@ body {
   margin: 0 auto;
 }
 
+#footer {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  text-align: center;
+  margin-top: 1rem;
+
+}
 .dice:hover {
   box-shadow: 0 0 10px hsl(150, 100%, 66%);
 }
