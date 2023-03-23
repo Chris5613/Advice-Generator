@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-  height: 450px;
+  height: 400px;
   width: 680px;
   background-color: hsl(217, 19%, 24%);
   position: absolute;
@@ -48,4 +48,11 @@ body {
   font-size: 28px;
   text-align: center;
   font-weight: 600;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
